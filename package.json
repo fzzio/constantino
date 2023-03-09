@@ -1,0 +1,33 @@
+{
+  "name": "constantino",
+  "version": "0.1.0",
+  "description": "Sistema para la gestión de socios Comuna \"Entre Ríos\"",
+  "engines": {
+    "node": "18.x"
+  },
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fzzio/constantino.git"
+  },
+  "author": {
+    "name": "Fabricio Orrala",
+    "email": "fabricio.orrala@gmail.com",
+    "url": "https://github.com/fzzio"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fzzio/constantino/issues"
+  },
+  "homepage": "https://github.com/fzzio/constantino#readme",
+  "devDependencies": {
+    "nuxt": "^3.2.3"
+  }
+}
