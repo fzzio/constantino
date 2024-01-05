@@ -1,6 +1,9 @@
 {
   "name": "constantino",
   "version": "0.1.0",
+  "engines": {
+    "node": "20.x"
+  },
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -8,6 +11,20 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fzzio/constantino.git"
+  },
+  "author": {
+    "name": "Fabricio Orrala",
+    "email": "fabricio.orrala@gmail.com",
+    "url": "https://github.com/fzzio"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fzzio/constantino/issues"
+  },
+  "homepage": "https://github.com/fzzio/constantino#readme",
   "dependencies": {
     "react": "^18",
     "react-dom": "^18",
