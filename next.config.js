@@ -6,6 +6,9 @@ const nextConfig = {
     includePaths: [path.join(__dirname, 'src/scss')],
     prependData: `@import "main.scss";`,
   },
+  experimental: {
+    typedRoutes: true,
+  },
 }
 
 module.exports = nextConfig
